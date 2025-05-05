@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>El mundo de las celulas</title>
+    <style>
+        /* Estilo global */
+        body {
+            background-color: #c5ddca;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            font-family: 'EB Garamond', serif; /* Usar EB Garamond */
+            background-color: #fffbf7;
+            padding: 20px;
+            text-align: center;
+            font-size: 2rem;
+            font-weight: bold;
+            border-bottom: 2px solid #d1e8a4;
+        }
+
+        nav {
+            background-color: #fffbf7;
+            padding: 10px;
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #333;
+            font-size: 1.1rem;
+            transition: color 0.3s;
+        }
+
+        nav a:hover {
+            color: #a3c93b; /
+        }
+
+        section {
+            background-color: #fffbf7;
+            padding: 30px;
+            margin: 20px;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+        }
+
+        h2 {
+            color: #4a4a4a;
+        }
+
+        footer {
+            background-color: #fffbf7;
+            text-align: center;
+            padding: 15px;
+            margin-top: 30px;
+            font-size: 0.9rem;
+            border-top: 2px solid #c5ddca;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        El mundo de las células
+    </header>
+
+<nav>
+        <a href="definición.html">Definición</a>
+        <a href="sobrenosotros.html">Sobre nosotros</a>
+        <a href="imagenes.html">Imágenes</a>
+        <a href="index.html">Inicio</a>
+        <a href="masinformacion.html">Más Información</a>
+    </nav>
+
+    </body>
+<section>
+    <article>
+        <section id="contacto">
+    <h2>Contacto</h2>
+    <p>Si tienes alguna pregunta o necesitas más información, no dudes en ponerte en contacto con nosotros.</p>
+
+    <form action="enviar_formulario.php" method="POST">
+        <label for="nombre">Nombre:</label>
+        <input type="text" id="nombre" name="nombre" required>
+
+        <label for="email">Correo Electrónico:</label>
+        <input type="email" id="email" name="email" required>
+
+        <label for="mensaje">Mensaje:</label>
+        <textarea id="mensaje" name="mensaje" rows="4" required></textarea>
+
+        <button type="submit">Enviar</button>
+    </form>
+
+    <h3>Otra forma de contactarnos:</h3>
+    <ul>
+        <li>Teléfono: +1 (123) 456-7890</li>
+        <li>Correo Electrónico: contacto@ejemplo.com</li>
+        <li>Dirección: Calle Ficticia 123, Ciudad, País</li>
+    </ul>
+    
+    <h3>Redes Sociales:</h3>
+    <ul>
+        <li><a href="https://facebook.com/ejemplo" target="_blank">Facebook</a></li>
+        <li><a href="https://twitter.com/ejemplo" target="_blank">Twitter</a></li>
+        <li><a href="https://instagram.com/ejemplo" target="_blank">Instagram</a></li>
+    </ul>
+
+</article>
+</section>
+    <footer>
+        &copy; 2025 "El mundo de las células" | Todos los derechos reservados
+    </footer>
